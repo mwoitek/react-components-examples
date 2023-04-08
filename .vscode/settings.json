@@ -1,0 +1,11 @@
+{
+  "[css][javascript][json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[http]": {
+    "editor.codeLens": true
+  }
+}
