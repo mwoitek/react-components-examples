@@ -12,6 +12,7 @@ function Button({
   ...rest
 }) {
   const classes = className(
+    rest.className,
     'flex',
     'items-center',
     'px-3',
@@ -35,7 +36,7 @@ function Button({
     }
   );
   return (
-    <button className={classes} {...rest}>
+    <button {...rest} className={classes}>
       {children}
     </button>
   );
