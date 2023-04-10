@@ -1,5 +1,5 @@
 {
-  "[css][javascript][json]": {
+  "[css][javascript][json][jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "emmet.includeLanguages": {
@@ -7,5 +7,11 @@
   },
   "[http]": {
     "editor.codeLens": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
   }
 }
